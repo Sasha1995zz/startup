@@ -1,0 +1,529 @@
+body {
+  padding: 0;
+  margin: 0;
+  services__list font-family: RobotoSlab;
+  color: #555555;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.page-header {
+  background-image: url(img/Layer%2010.jpg);
+  width: 1600px;
+  height: 770px;
+  background-color: crimson;
+}
+
+.page-header__menu {
+  width: 1141px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  margin: auto;
+}
+
+.page-header__logo {
+  color: white;
+  font-family: Montserrat;
+}
+
+.page-header__list {
+  width: 540px;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-header__link {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: Montserrat;
+  letter-spacing: 0.35px;
+  color: #ffffff;
+}
+
+.page-header__div {
+  text-align: center;
+  margin-top: 220px;
+}
+
+.page-header__heading {
+  font-family: Montserrat;
+  font-size: 48px;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.page-header__title {
+  font-family: RobotoSlab;
+  font-size: 22px;
+  line-height: 1.2;
+  color: #ffffff;
+  margin-top: 18px;
+  margin-top: 18px;
+}
+
+.page-header__button {
+  border: 2px solid white;
+  background-color: inherit;
+  color: white;
+  font-size: 16px;
+  line-height: 1.5;
+  padding: 12px 34px 11px 35px;
+  text-transform: uppercase;
+}
+
+.page-header__button:hover {
+  color: red;
+  background-color: white;
+}
+
+.block-1 {
+  margin-top: 99px;
+  margin-bottom: 90px;
+}
+
+.block-2 {
+  width: 1600px;
+  background-color: #f8f8f8;
+}
+
+.services-1 {
+  padding-top: 99px;
+  padding-bottom: 99px;
+}
+
+.services {
+  text-align: center;
+}
+
+.services__heading {
+  font-family: Montserrat;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #555555;
+  text-transform: uppercase;
+  margin-bottom: 0;
+}
+
+.services__title {
+  font-family: RobotoSlab;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555555;
+  margin-bottom: 60px;
+  margin-top: 0;
+}
+
+.services__list {
+  width: 1139px;
+  margin: 0 auto;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__heading-5 {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.71;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.services__text {
+  width: 345px;
+  text-align: center;
+}
+
+.about {
+  width: 1138px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.about__title {
+  width: 553px;
+}
+
+.wrap {
+  background: url('img/Layer%2012.jpg') no-repeat;
+  width: 263px;
+  height: 250px;
+}
+
+.wrap1 {
+  background: url('img/Layer%2013.jpg') no-repeat;
+  width: 263px;
+  height: 250px;
+}
+
+.wrap2 {
+  background: url('img/Layer%2015.jpg') no-repeat;
+  width: 263px;
+  height: 250px;
+}
+
+.wrap3 {
+  background: url('img/Layer%2016.jpg') no-repeat;
+  width: 263px;
+  height: 250px;
+}
+
+.hover {
+  display: none;
+  background: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 195px;
+  padding-left: 100px;
+}
+
+.wrap:hover .hover {
+  display: block;
+}
+
+.wrap1:hover .hover {
+  display: block;
+}
+
+.wrap2:hover .hover {
+  display: block;
+}
+
+.wrap3:hover .hover {
+  display: block;
+}
+
+.icon-facebook:hover {
+  background-color: red;
+}
+
+.icon-twiter:hover {
+  background-color: red;
+}
+
+.icon-google:hover {
+  background-color: red;
+}
+
+.icon-inst:hover {
+  background-color: red;
+}
+
+.about__spokesman {
+  width: 1138px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  font-family: Montserrat;
+  line-height: 1.71;
+  color: #555555;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 0;
+}
+
+.profession {
+  font-family: RobotoSlab;
+  font-size: 15px;
+  line-height: 1.85;
+  color: #555555;
+  text-align: center;
+  margin-top: 0;
+}
+
+.block-3 {
+  margin-top: 99px;
+}
+
+.services__list-menu {
+  width: 416px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 70px;
+  padding: 0;
+}
+
+.services__link-menu {
+  font-family: RobotoSlab sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555555;
+}
+
+.services__wrap {
+  width: 1138px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0;
+  justify-content: space-between;
+}
+
+.services__wrap li {
+  padding-bottom: 28px;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 1.47;
+  color: white;
+}
+
+.background {
+  background-image: url("img/Layer%2029.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1600px;
+  height: 369px;
+}
+
+.block-4 {
+  margin-top: 95px;
+}
+
+.background__color {
+  text-align: center;
+  padding-top: 80px;
+}
+
+.posts__blog {
+  width: 1138px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  margin-bottom: 77px;
+}
+
+.posts__title {
+  width: 637px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: left;
+  color: #555555;
+}
+
+.posts__row {
+  display: flex;
+  align-items: center;
+}
+
+.border {
+      font-size: 40px;
+    font-weight: bold;
+}
+
+.posts__data {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1.4px;
+  text-align: center;
+  color: #777777;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.posts__month {
+  font-size: 14px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.posts__border {
+  border: solid 2px #555555;
+  padding: 17px 22px;
+  margin-right: 28px;
+}
+
+.posts__heading {
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #c0301c;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.posts__By {
+  font-size: 14px;
+  line-height: 1.85;
+  color: #777777;
+  margin-top: 0;
+}
+
+.posts__read {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 1.85;
+  letter-spacing: 1.3px;
+  color: #777777;
+  text-transform: uppercase;
+}
+
+.block-5 {
+  width: 1600px;
+  background-color: #f8f8f8;
+}
+
+.partners {
+  padding-top: 114px;
+  padding-bottom: 100px;
+}
+
+.partners__list {
+  width: 907px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  align-items: center;
+}
+
+.partners__title {
+  font-size: 23px;
+  line-height: 1.67;
+  text-align: center;
+  color: #555555;
+}
+.block-6 {
+margin-top: 99px;
+}
+.partners__Jonh {
+  font-size: 20px;
+}
+
+.form {
+  width: 1138px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.form__line {
+  display: flex;
+  align-items: center;
+}
+
+.form__heading {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 2.14;
+  color: #555555;
+  text-transform: uppercase;
+}
+
+.form__title {
+  font-size: 14px;
+  line-height: 1.67;
+  color: #555555;
+}
+
+.form__wrap {
+  width: 730px;
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.form__wrap input {
+  width: 350px;
+  height: 44px;
+  border: solid 1px #555555;
+  margin-bottom: 20px;
+}
+
+.form-button {
+  color: #555555;
+}
+
+textarea {
+  width: 730px;
+  /* Ширина поля в процентах */
+  height: 104px;
+  /* Высота поля в пикселах */
+  resize: none;
+  /* Запрещаем изменять размер */
+  border-color: #555555;
+  text-transform: uppercase;
+}
+
+input {
+  font-family: RobotoSlab;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: left;
+  color: #555555;
+  text-transform: uppercase;
+  padding-left: 17px;
+}
+
+.form__input {
+  width: 730px;
+}
+
+footer {
+  width: 1600px;
+  background-color: #c0301c;
+}
+
+.social {
+  width: 182px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  padding: 0;
+}
+
+.social li {
+  width: 34px;
+  height: 34px;
+  border: solid 2px #ffffff;
+  border-radius: 60%;
+}
+
+.social img {
+  padding-top: 10px;
+}
+
+.border-foooter {
+  color: white;
+}
+
+.services__footer {
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.services__contact {
+  padding-top: 100px;
+  padding-bottom: 90px;
+  color: white;
+}
